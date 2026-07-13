@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#081229;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.inicio{
+    text-align:center;
+}
+
+h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+p{
+    font-size:1.2rem;
+    margin-bottom:35px;
+}
+
+button{
+    padding:15px 40px;
+    border:none;
+    border-radius:40px;
+    background:#4b6fff;
+    color:white;
+    font-size:1.1rem;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+.oculto{
+    display:none;
+}
+
+.sobre{
+    margin-top:40px;
+    font-size:90px;
+    animation: aparecer 1s ease;
+}
+
+
+@keyframes aparecer{
+
+    from{
+        opacity:0;
+        transform:scale(0.5);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
+.sobre{
+    margin-top:40px;
+    font-size:90px;
+    animation: aparecer 1s ease;
+    cursor:pointer;
+}
+
+
+@keyframes aparecer{
+
+    from{
+        opacity:0;
+        transform:scale(0.5);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
+.papel{
+    margin-top:30px;
+    background:#fff8e7;
+    color:#2b2b2b;
+    padding:35px;
+    border-radius:15px;
+    max-width:600px;
+    border:3px solid #d4af37;
+    box-shadow:0 0 25px rgba(212,175,55,0.5);
+    animation:aparecer 1s ease;
+    line-height:1.7;
+}
+
+
+.papel h2{
+    text-align:center;
+    color:#b8860b;
+    margin-bottom:25px;
+    font-size:2rem;
+}
+
+
+.papel p{
+    font-size:1.1rem;
+    margin-bottom:20px;
+}
+.fotos{
+    margin-top:50px;
+    text-align:center;
+}
+
+
+.fotos h2{
+    color:#b8860b;
+    margin-bottom:25px;
+}
+
+
+.fotos img{
+    width:90%;
+    max-width:400px;
+    border-radius:15px;
+    border:3px solid #d4af37;
+    margin-top:20px;
+    box-shadow:0 0 20px rgba(212,175,55,0.4);
+}
+
+
+.fotos p{
+    margin-top:15px;
+    font-style:italic;
+}
+.musica{
+    margin-top:50px;
+    text-align:center;
+}
+
+.musica h2{
+    color:#b8860b;
+    margin-bottom:20px;
+}
+
+audio{
+    margin-top:20px;
+}
+.contador{
+    margin-top:60px;
+    text-align:center;
+}
+
+.contador h2{
+    color:#b8860b;
+    margin-bottom:20px;
+}
+
+#tiempo{
+    font-size:1.3rem;
+    line-height:2;
+}
+.oculto{
+    display:none;
+}
+
+.final{
+    text-align:center;
+    margin-top:60px;
+}
+
+#botonAmor{
+    padding:15px 30px;
+    font-size:1.1rem;
+    background:linear-gradient(45deg,#ff4d6d,#ff758c);
+    border:none;
+    border-radius:30px;
+    color:white;
+    cursor:pointer;
+    box-shadow:0 0 20px rgba(255,77,109,.5);
+    transition:.3s;
+}
+
+#botonAmor:hover{
+    transform:scale(1.05);
+}
