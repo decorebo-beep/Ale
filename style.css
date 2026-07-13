@@ -3,17 +3,19 @@
     padding:0;
     box-sizing:border-box;
 }
-
 body{
     background:#081229;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
 
-    height:100vh;
+    min-height:100vh;
 
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    justify-content:flex-start;
     align-items:center;
+
+    overflow-y:auto;
 }
 
 .inicio{
